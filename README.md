@@ -1,2 +1,6 @@
 # prueba1_2021
-Aquí están los códigos que ocupamos para la creacion de la pagina web
+Bienvenido
+
+la pagina de creacion fue diseñada por Diego Concha, Nicolas Piña, Sebastian Gomez, Aldair Jimenez Y Diego Uribe.
+Esta pagina es para una pagina web de una pasteleria 
+
