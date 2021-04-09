@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
     <div class="contenedor">
-    <nav class="navbar navbar-expand-lg navbar-light" style="background: #F0CEAF;">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background: #F0CEAF;">
         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
             <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 
             2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 
@@ -50,8 +50,9 @@
 
 body{
 background-color: brown;
+background-repeat: no-repeat;
+background-attachment: fixed
 }
-
 .Titulos{
 text-align: center;
 font-family: 'Lora', serif;
@@ -59,6 +60,14 @@ color: rgb(0, 204, 255);
 background-color: brown;
 margin: 15px;
 margin-top: 5px;
+}
+.TitulosDos{
+text-align: center;
+margin: 15px;
+color: rgb(0, 204, 255);
+font-family: 'Lora', serif;
+font-size: 30px;
+margin-top: 15px;
 }
 .grid-container {
 display: grid;
@@ -71,7 +80,7 @@ background-color: rgba(255, 255, 255, 0.8);
 font-size: 30px;
 text-align: center;
 font-family: 'Bad Script', cursive;
-padding: 10px;
+padding: 15px;
 }
 img{
 width: 450px;
@@ -79,7 +88,6 @@ height: 350px;
 max-width: 100%;
 margin: 5px;
 }
-
 .parallaxUno {
 background-image: url("https://img.freepik.com/vector-gratis/fondo-abstracto-forma-geometrica-pintado-diseno-pastel_41066-1266.jpg?size=626&ext=jpg&ga=GA1.2.1356500412.1617235200");
 min-height: 500px; 
@@ -96,10 +104,20 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
+
+.ListaGeneral{
+margin: 20px;
+font-size: 23px;
+margin-bottom: -10px;
+padding: -40px;
+}
+
 </style>
 </head>
 <body> 
 <header>
+<br>
+<br>
 <h1 class="Titulos">Nuestros Pasteles</h1>
 </header>
 <div class="parallaxUno">  
@@ -118,10 +136,63 @@ background-size: cover;
   <div class="grid-item"><a href="#">Frambuesa</a></div>   
 </div>
 </div>
+
+<div class="TitulosDos">
+    <h1>
+     Contactos
+    </h1>
+</div>
+
 <div class="parallaxDos"> 
-
-</div> 
-
+<section>
+<div class="ListaGeneral">
+<p><br>Ubicacion:</p>
+<ul>
+<li>
+Avenida Grecia #459
+</li>
+<li>
+Peñalolen, Region Metropolitana
+</li>
+<li>
+Chile
+</li>
+</ul>
+</div>
+</section> 
+<section>
+<div class="ListaGeneral">
+<p><br>Telefono:</p>
+<ul>
+<li>
++56287956234
+</li>
+</ul>
+</div>
+</section>
+<section>
+<div class="ListaGeneral">
+<p><br>Envienos un correo electronico:</p>
+<ul>
+<li>
+cakeseldelicioso@pasteleria.com
+</li>
+</ul>
+</div>  
+</section>
+<section>
+<div class="ListaGeneral">
+<p><br>horario de atencion:</p>
+<ul>
+<li>
+Lunes a Viernes: 10:00 a 20:00
+</li>
+<li>
+Sabado a Domingo: 9:00 a 20:00
+</li>
+</ul>
+</div>  
+</section>
 <!--Scripts separados-->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -129,8 +200,3 @@ background-size: cover;
         
 </body>
 </html>
-
-</li>
-
-
-</ul>
