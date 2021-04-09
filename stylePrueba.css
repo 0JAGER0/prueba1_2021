@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url('torta.jpg');
+    background-image: url('torta.jpg') style="width: 100px;";
 }
 
 
