@@ -5,7 +5,11 @@
 }
 
 body{
-    background-image: url('torta.jpg');
+    background: url(torta.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh; 
+
 }
 
 
@@ -49,6 +53,7 @@ font-size: 18px;
 .form-register a:hover {
     color: rgb(255, 255, 255);
     text-decoration: none;
+    
 }
 
 .form-register .botons {
@@ -59,4 +64,9 @@ font-size: 18px;
     color: white;
     margin: 16px 0;
     font-size: 16px;
+    
+}
+
+.form-register input[type="submit"]:hover{
+    transform: scale(0.95);
 }
