@@ -51,28 +51,29 @@ body{
 background: brown;
 background-repeat: no-repeat;
 background-attachment: fixed;
-margin: 15px;
+margin: 40px;
 }
 .TituloUno{
 text-align: center;    
 font-size: 40px;
 font-family:'Lora', serif;
 color: rgb(0, 204, 255);
-margin-top: 50.9px;
+margin-top: 60px;
 }
 
 .card-title{
 font-size: 30px;
 font-weight: 5px;
 color: orange;
+margin-bottom: 0.9em;
 }
 .TitulosDos{
 text-align: center;
 margin: 15px;
 color: rgb(0, 204, 255);
 font-family: 'Lora', serif;
-font-size: 30px;
-margin-top: 12px;
+font-size: 40px;
+margin-top: 1px;
 }
 .card-text{
 font-size: 20px;
@@ -81,10 +82,10 @@ font-family:'Lora', serif;
 .grid-container {
 display: grid;
 grid-template-columns: auto auto;
-background: black;
 margin-top: 35px;
 margin-left: 0.1em;
-padding: 2px;
+padding: 1%;
+;
 }
 .grid-item {
 background-color: rgba(255, 255, 255, 0.8);
@@ -93,8 +94,9 @@ text-align: center;
 font-family: 'Bad Script', cursive;
 padding: 10px;
 }
-.imagen{
-    max-width: 100%;
+
+img{
+  max-width: 100%;
 }
 
 .parallaxUno {
@@ -104,6 +106,7 @@ background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+border: solid black;
 }
 
 .ListaGeneral{
@@ -119,10 +122,10 @@ font-family: 'Lora', serif;
 <header>
 <h1 class="TituloUno"> HojaRasca</h1>
 </header>
-<div class="card mb-3" style="max-width: 1800px;"  >
+<div class="card mb-3" style="max-width: 1750px; margin-left: 20px; border: solid black;">
     <div class="row no-gutters">
       <div class="col-md-4">
-        <img src="https://www.mozart.cl/wp-content/uploads/2018/04/hojarasca-manjar-nuez-II.jpg" alt="Hoja Rasca">
+        <img src="https://www.mozart.cl/wp-content/uploads/2018/04/hojarasca-manjar-nuez-II.jpg" alt="Hoja Rasca" style="width: 800px; height: 450px; padding: 20px;">
       </div>
       <div class="col-md-8">
         <div class="card-body">
@@ -139,7 +142,6 @@ font-family: 'Lora', serif;
   <option value="24">72</option>
   <option value="36">84</option>
 </select>
-<br>
 <p style="color: red;">Falta el carrito de compra</p>
 <hr style="margin-top: 7em;">
 <p class="card-text">Categorías: Hojarasca, Tortas</p>
@@ -147,9 +149,9 @@ font-family: 'Lora', serif;
 </div>
     </div>
     </div>
-    <table class="table table-bordered">
+    <table class="table table-bordered" style="border: groove black; width: 1750px; margin: 20px;">
         <thead>
-          <tr style="background: #F0CEAF">
+          <tr style="background: #F0CEAF;">
             <th scope="col">Informacion adicional</th>
           </tr>
         </thead>
@@ -180,7 +182,7 @@ font-family: 'Lora', serif;
     
     <div class="parallaxUno"> 
     <section>
-    <div class="ListaGeneral">
+    <div class="ListaGeneral" style="margin-top: -25px;">
     <p><br>Ubicacion:</p>
     <ul>
     <li>
