@@ -83,8 +83,7 @@
             color: white;
         
         }    
-        /*diego, te arregle el que el registro e iniciar sesion quedaran a la derecha*/ 
-        /*y centre un poco el titulo que pusiste , el color cambialo si sientes que esta poco visible pero era una prueba nada mas*/
+        /*Titulo pagina*/ 
         #TITULOH1{
             font-family: 'Great Vibes', cursive;
             text-align: center;
@@ -93,28 +92,33 @@
             
         }
 
+
+        /*Titulo pagina*/ 
         #logo{
             margin-right: 10px;
         }
 
 
-
+        /*subtitulo*/ 
         #subtituloh1{
             font-family: 'Caveat', cursive;
             text-align: center;
             color: whitesmoke;
 
         }
+        /*id titulo torta*/ 
         #tituloHoja{
             font-family: 'Caveat', cursive;
             font-size: 65px;
             color: #593202;
         }
+        /*id titulo torta*/
         #tituloHojaldre{
             font-family: 'Caveat', cursive;
             font-size: 65px;
             color: #D94C1A;
         }  
+        /*id titulo torta*/
         #tituloOpera{
             font-family: 'Caveat', cursive;
             font-size: 65px;
@@ -133,21 +137,22 @@
             color: #121212;
             font-family: 'Arvo', serif;
         }
+        /*logo*/
         #logoInsta{
             margin-top: -1em;
             margin-bottom: -10px;
         }
-
+        /*logo*/
         #logoFace{
             margin-top: -1em;
             margin-bottom: -10px;
         }
-
+        /*logo*/
         #logoTwit{
             margin-top: -1em;
             margin-bottom: -10px;
         }
-
+        /*logo*/
         #logoCorreo{
             margin-top: -1em;
             margin-bottom: -10px;
@@ -155,15 +160,16 @@
         }
         
 
-
+        /*imagenes al 100%*/
         img{
             max-width: 100%;
         }
-
+        
         .redes {           
             text-align: center;
             padding: 0.3em;
         }
+        /*circulos del logos*/
         .redes .circulo {
             background-color: #FFF;
             color: black;
@@ -181,19 +187,33 @@
 
         .grid-container {
             display: grid;
-            grid-template-columns: auto auto ;
-           
+            grid-template-columns: auto auto ;          
             padding: 10px;
         }
-        .grid-item {
-            
-            
+        .grid-item {          
             padding: 20px;
             font-size: 30px;
             text-align: center;
         }
        
+       /*FOOTER FINAL DE LA PAGINA*/
+        .footer {
+            padding: 1.5em;
+            text-align: center;
+            background-color: #60371E;
+        }
 
+        #tituloUbicacion{
+            margin-left: 1em;
+        }
+
+        #tituloLlamenos{
+            margin-left: 1em;
+        }
+
+        #bottonLinkContacto{
+            margin-left: 1em;
+        }
 
     </style>
 
@@ -296,7 +316,7 @@
                   <span class="sr-only">Next</span>
                 </a>
               </div>
-            <div style="height:350px;background-color:#ffffff00">
+            <div style="height:375px;background-color:#ffffff00">
                 <div>
 
                     <div class="container">     
@@ -377,34 +397,29 @@
                 <h1 class="Titulos"> <center>Información de la tienda</center> </h1>
             </div>
         
-                <p>Ubicación:</p>
+                <p id="tituloUbicacion">Ubicación:</p>
             <ul>
-                <li >Avenida Grecia #459</li>
+                <li>Avenida Grecia #459</li>
                 <li>Ñuñoa, Región Metropolitana</li>
                 <li>Chile</li>
             </ul>       
-                <p>Llámenos:</p>
+                <p id="tituloLlamenos">Llámenos:</p>
             <ul>
                 <li>+562 87956234</li>
             </ul>
-            <button style="color: whitesmoke; font-family: 'Lato', sans-serif; font-size: 20px;" type="button" class="btn btn-outline-dark" href="">Click aqui para mas contacto</button>
 
-            
-            
+            <button id="bottonLinkContacto" style="color: whitesmoke; font-family: 'Lato', sans-serif; font-size: 20px;" type="button" class="btn btn-outline-dark" href="">Click aqui para mas contacto</button>
 
         </div>
     </section>
     
     <section>   
-        <div
-            style="height:62px;background-color:#60371E">
-            <h6 style="margin-top: 10m; color: blanchedalmond;">Desarrollo de paginas web (grupo 7) Duoc uc 2021 </h6>
-        </div>
-    </section> 
     
+        <nav class="nav bg text-white footer">
+            Desarrollo de paginas web (grupo 7) Duoc uc 2021
+        </nav>
 
-    
-  
+    </section> 
 
     <!--Scripts separados-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
