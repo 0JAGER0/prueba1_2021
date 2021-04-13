@@ -53,15 +53,31 @@
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,800&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,800&display=swap');
+        
+        #TITULO{
+            font-family: 'lobster', cursive;
+            font-size: 40px;
+        }
+
+        #logo{
+            margin-right: 10px;
+        }
+
+        .contenedor{
+            max-width:100%
+        }
+        
         .Titulos{
             text-align: center;
             margin-top: 90px;
-            font-family: 'Kanit', sans-serif;
-        }
-
-        #TITULO{
-        font-family: 'lobster', cursive;
-        font-size: 30px;
+            font-family: 'lobster', cursive;
         }
 
         body{
@@ -69,7 +85,7 @@
             background-color: #F2EAD0;
             background-blend-mode: soft-light;
             background-attachment: fixed;
-            margin: 150px;   
+            margin: 100px;  
         }
 
         p{
@@ -77,12 +93,25 @@
         }
 
         ul{
-            font-family: 'Satisfy', cursive;
+            font-family: 'lobster', cursive;
+        }
+
+        iframe{
+            max-width: 70%;
+            height: 350;
+        }
+
+        .footer {
+            padding: 1.5em;
+            text-align: center;
+            background-color: #60371E;
+            bottom: 0;
         }
         
     </style>    
 </head>
 <body>
+
     <!--Informacion-->
     <header>
         <h1 class="Titulos">Información de la tienda</h1>
@@ -104,8 +133,9 @@
     <ul>
         <li>cakeseldelicioso@pasteleria.cl</li>
     </ul>
+
     <p>
-    <a href="mailto:cakeseldelicioso@pasteleria.cl"> Click aqui para enviarnos un correo</a>
+        <a href="mailto:cakeseldelicioso@pasteleria.cl"> Click aqui para enviarnos un correo</a>
     </p>
 
     <p>Horario de Atención:</p>
@@ -117,11 +147,23 @@
    <!--GoogleMaps Centrado-->
     <center>
         <div id="centro">
-        <p>Avenida Grecia #459</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.716760598193!2d-70.62793334927079!3d-33.456685105123874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c563b8e19eb5%3A0xdb645ea48eb3534!2sAv.%20Grecia%20459%2C%20%C3%91u%C3%B1oa%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1618005412692!5m2!1ses-419!2scl" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <p>Avenida Grecia #459, Ñuñoa</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53232.07477997816!2d-70.66238638936633!3d-33.50125552692347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c563b8e19eb5%3A0xdb645ea48eb3534!2sAv.%20Grecia%20459%2C%20%C3%91u%C3%B1oa%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1618266541268!5m2!1ses-419!2scl" width=550 height=350 style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </center>
 
+
+    <section>
+        <div 
+        style="height:100px;background-color:#ffffff00">
+        <div>
+    </section>
+
+    <section>
+        <nav class="nav bg text-white footer">
+            Desarrollo de paginas web (grupo 7) Duoc uc 2021
+        </nav>
+    </section>
     
     <!--Scripts separados-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
