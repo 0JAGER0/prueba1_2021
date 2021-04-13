@@ -1,14 +1,14 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 
 body{
-    background: url(torta.jpg) no-repeat center top;
-    background-size: cover;
+    background: url(torta.jpg);
+    background-size: cover ;
     font-family: sans-serif;
     height: 100vh; 
+    max-width: 100%;
 
 }
 
@@ -23,12 +23,14 @@ body{
     font-family: 'calibri';
     color: white;
     box-shadow: 7px 13px 37px #000;
+    max-width: 100%;
 
 }
 
 .form-register h4 {
     font-size: 22px;
     margin-bottom: 20px;
+    max-width: 100%;
 }
 
 .controls {
@@ -41,18 +43,21 @@ body{
     font-family: 'calibri';
     font-size: 18px;
     color: white;
+    max-width: 100%;
 }
 
 .form-register p{
 height: 40px;
 text-align:  center;
 font-size: 18px;
+max-width: 100%;
 
 }
 
 .form-register a:hover {
     color: rgb(255, 255, 255);
     text-decoration: none;
+    max-width: 100%;
     
 }
 
@@ -64,9 +69,88 @@ font-size: 18px;
     color: white;
     margin: 16px 0;
     font-size: 16px;
+    max-width: 100%;
     
 }
 
 .form-register input[type="submit"]:hover{
     transform: scale(0.95);
+    max-width: 100%;
 }
+
+.container {
+    max-width: 100%;
+}
+
+
+
+#TITULOH1{
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 65px;
+    max-width: 100%;
+    
+}
+
+.footer {
+
+    padding: 1.5em;
+    text-align: center;
+    background-color: #60371E;
+    max-width: 100%;
+}
+
+
+
+
+#TITULO{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    max-width: 100%;
+    
+}
+/* link contacto*/
+
+
+#link_iniciar_sesion{
+    font-family: 'Cabin', sans-serif;
+    max-width: 100%;
+    
+}
+
+#link_registro{
+    font-family: 'Cabin', sans-serif;
+    max-width: 100%;
+    
+}
+/*LETRA BOTON INICIO SESION*/
+#letra_inicio{
+    color:white;
+    max-width: 100%;
+    
+}
+/* LETRA REGISTRO BOTON*/
+#letra_registro{
+    color: white;
+
+    max-width: 100%;
+
+}    
+/*diego, te arregle el que el registro e iniciar sesion quedaran a la derecha*/ 
+/*y centre un poco el titulo que pusiste , el color cambialo si sientes que esta poco visible pero era una prueba nada mas*/
+#TITULOH1{
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 65px;
+    max-width: 100%;
+    
+}
+
+#logo{
+    margin-right: 10px;
+    max-width: 100%;
+}
+
+

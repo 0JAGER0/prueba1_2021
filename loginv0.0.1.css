@@ -1,10 +1,15 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 
 body {
     background: url(torta.jpg) no-repeat center top;
     background-size: cover;
     font-family: sans-serif;
-    height: 100vh;    
+    height: 100vh;   
+    max-width: 100%; 
 }
 .contenedor {
     width: 100%;
@@ -95,39 +100,61 @@ body {
     color:white;
 }
 
-@media (max-width:768px){
-    .contenedor{
-        width: 75%;
-    }
+
+
+
+.footer {
+
+    padding: 1.5em;
+    text-align: center;
+    background-color: #60371E;
+    
 }
 
-@media (max-width:480px){
-    .contenedor{
-        width: 95%;
-    }
+
+#TITULO{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    max-width: 100%;
+    
 }
 
 
-@media (max-width:768px){
-    .login-box{
-        width: 75%;
-    }
+#link_iniciar_sesion{
+    font-family: 'Cabin', sans-serif;
+    max-width: 100%;
+    
 }
 
-@media (max-width:480px){
-    .login-box{
-        width: 95%;
-    }
+#link_registro{
+    font-family: 'Cabin', sans-serif;
+    max-width: 100%;
+    
+}
+#letra_inicio{
+    color:white;
+    max-width: 100%;
+    
+}
+/* LETRA REGISTRO BOTON*/
+#letra_registro{
+    color: white;
+
+    max-width: 100%;
+
+}    
+/*diego, te arregle el que el registro e iniciar sesion quedaran a la derecha*/ 
+/*y centre un poco el titulo que pusiste , el color cambialo si sientes que esta poco visible pero era una prueba nada mas*/
+#TITULOH1{
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 65px;
+    max-width: 100%;
+    
 }
 
-@media (max-width:768px){
-    .navbar navbar-expand-lg navbar-light{
-        width: 75%;
-    }
-}
-
-@media (max-width:480px){
-    .navbar navbar-expand-lg navbar-light{
-        width: 95%;
-    }
+#logo{
+    margin-right: 10px;
+    max-width: 100%;
 }
