@@ -21,9 +21,9 @@
       text-align: center;    
       font-size: 50px;
       font-family:'Lora', serif;
-      color: rgb(0, 204, 255);
+      color: rgb(255, 255, 255);
       margin-top: 65px;
-      background-color: brown;
+      background-color: rgb(59, 34, 5);
       }
       #letra_inicio{
       color:white;
@@ -44,11 +44,11 @@
       .TitulosDos{
       text-align: center;
       margin: 0.5px;
-      color: rgb(0, 204, 255);
+      color: rgb(255, 255, 255);
       font-family: 'Lora', serif;
       font-size: 40px;
       margin-top: 15px;
-      background-color: brown;
+      background-color: rgb(59, 34, 5);
       }
       .card-text{
       font-size: 20px;
@@ -62,15 +62,21 @@
       padding: 1%;
       
       }
-      .grid-item {
+      .grid-item{
       font-size: 25px;
       text-align: center;
       font-family: 'Bad Script', cursive;
       padding: 10px;
+     
       }
-      
+
       img{
         max-width: 100%;
+        border-radius:10px;
+      }
+      
+      a{
+        border-radius:20px;
       }
       
       .parallaxUno {
@@ -96,7 +102,9 @@
   <nav class="container">
       <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #EDD8BF ">
           <svg id="logo" xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
-              <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
+              <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 
+              0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 
+              0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
           </svg>
           <a class="navbar-brand" id="TITULO">Cakes el delicioso</a>          
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -166,7 +174,7 @@
       <table class="table">
         <tr>
           <td style="background-color: gray;">
-            Informacion adicional
+            <b>Informacion adicional</b>
           </td>
         </tr>
         <tr>
@@ -176,17 +184,16 @@
         </tr>
       </table>
     </div>
-    <div class="grid-container">
+    <div class="grid-container rounded">
       <div class="grid-item"><img src="https://www.mozart.cl/wp-content/uploads/2020/06/hojaldre-manjar-frambuesa.jpg" alt="Hojaldre Manjar Chantilly Frambuesa"></div>
       <div class="grid-item"><img src="https://www.mozart.cl/wp-content/uploads/2018/04/opera-blanca.jpg" alt="Opera Blanca"></div>    
-      <div class="grid-item"><a href="#" style="border: groove black; background-color: brown; border-width: 1px; color: rgb(0, 204, 255);">Hojaldre Manjar Chantilly Frambuesa</a></div>
-      <div class="grid-item"><a href="#" style="border: groove black; background-color: brown; border-width: 1px; color: rgb(0, 204, 255);">Opera Blanca</a></div>  
+      <div class="grid-item"><a href="#" style="background-color: rgb(59, 34, 5); color: rgb(255, 255, 255);">Hojaldre Manjar</a></div>
+      <div class="grid-item"><a href="#" style="background-color: rgb(59, 34, 5); color: rgb(255, 255, 255);">Opera Blanca</a></div>  
       <div class="grid-item"><img src="https://www.mozart.cl/wp-content/uploads/2020/05/tmp65AD.jpg" alt="Cassatta"></div>
       <div class="grid-item"><img src="https://www.mozart.cl/wp-content/uploads/2018/04/Biscocho-Frambuesa.jpg" alt="Frambuesa"></div> 
-      <div class="grid-item"><a href="#" style="border: groove black; background-color: brown; border-width: 1px; color: rgb(0, 204, 255);">Cassatta</a></div>
-      <div class="grid-item"><a href="#" style="border: groove black; background-color: brown; border-width: 1px; color: rgb(0, 204, 255);">Biscocho Frambuesa</a></div>   
+      <div class="grid-item"><a href="#" style="background-color: rgb(59, 34, 5); color: rgb(255, 255, 255);">Cassatta</a></div>
+      <div class="grid-item"><a href="#" style="background-color: rgb(59, 34, 5); border-width: 1px; color: rgb(255, 255, 255);">Biscocho Frambuesa</a></div>   
     </div>
-
     <div class="TitulosDos">
         <h1 style="margin-top: 25px;">
          Contactos
