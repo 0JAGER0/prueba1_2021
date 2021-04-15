@@ -4,23 +4,26 @@
 
 
 body{
-    background: url(torta.jpg);
+    background: url(torta.jpg) no-repeat center top;
     background-size: cover ;
     font-family: sans-serif;
     height: 100vh; 
-    
+    max-width: 100%;
 
 }
 
+.img{
+    max-width: 150%;
+}
 
 .form-register{
     width: 400px;
-    background: #631430;
+    background: #E9B35D;
     padding: 30px;
     margin: auto;
     margin-top: 100px;
     border-radius: 4px;
-    font-family: 'calibri';
+    font-family: 'lobster', cursive;
     color: white;
     box-shadow: 7px 13px 37px #000;
    
@@ -35,12 +38,12 @@ body{
 
 .controls {
     width: 100%;
-    background: #474343;
+    background: #EFC88B;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
     border: 1px solid #000000;
-    font-family: 'calibri';
+    font-family: 'lobster';
     font-size: 18px;
     color: white;
     
@@ -62,7 +65,7 @@ font-size: 18px;
 
 .form-register .botons {
     width: 100%;
-    background: #474343;
+    background: #B47818;
     border: none;
     padding: 12px;
     color: white;
@@ -92,6 +95,7 @@ font-size: 18px;
     padding: 1.5em;
     text-align: center;
     background-color: #60371E;
+    font-family: 'lobster', cursive;
 }
 
 
@@ -117,11 +121,13 @@ font-size: 18px;
 /*LETRA BOTON INICIO SESION*/
 #letra_inicio{
     color:white;
+    font-family: 'lobster', cursive;
     
 }
 /* LETRA REGISTRO BOTON*/
 #letra_registro{
     color: white;
+    font-family: 'lobster', cursive;
 ;
 
 }    
@@ -141,6 +147,16 @@ font-size: 18px;
 
 }
 
+
+ul{
+    font-family: 'lobster', cursive;
+    margin-left: 40px;
+    font-size: 24px;
+}
+
+form{
+    font-family: 'lobster';
+}
 
 .clear{clear:both;}
 

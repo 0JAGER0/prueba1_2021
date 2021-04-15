@@ -9,13 +9,12 @@ body {
     background-size: cover;
     font-family: sans-serif;
     height: 100vh;   
-    max-width: 100%; 
+    background-attachment: fixed;
+    max-width: 100%;
 }
-.contenedor {
-    width: 100%;
-    margin:0 auto;
-    overflow: hidden;
-    max-width: 1000px;
+
+.img{
+    max-width: 100%;
 }
 .login-box {
     width: 320px;
@@ -28,6 +27,7 @@ body {
     transform: translate(-50%, -50% );
     box-sizing: border-box;
     padding: 70px 30px;
+    font-family: 'Lobster', cursive;
 }
 
 .login-box .avatar{
@@ -108,6 +108,7 @@ body {
     padding: 1.5em;
     text-align: center;
     background-color: #60371E;
+    font-family: 'Lobster', cursive;
     
 }
 
@@ -121,26 +122,23 @@ body {
 
 
 #link_iniciar_sesion{
-    font-family: 'Cabin', sans-serif;
-    max-width: 100%;
-    
+    font-family: 'Lobster', cursive;    
 }
 
 #link_registro{
-    font-family: 'Cabin', sans-serif;
-    max-width: 100%;
+    font-family: 'Lobster', cursive;
     
 }
 #letra_inicio{
     color:white;
-    max-width: 100%;
+    font-family: 'Lobster', cursive;
     
 }
 /* LETRA REGISTRO BOTON*/
 #letra_registro{
     color: white;
 
-    max-width: 100%;
+    font-family: 'Lobster', cursive;
 
 }    
 /*diego, te arregle el que el registro e iniciar sesion quedaran a la derecha*/ 
@@ -165,5 +163,17 @@ body {
     margin-right: 10px;
     
 }
+
+form{
+    font-family: 'lobster';
+}
+
+ul{
+    font-family: 'lobster', cursive;
+    margin-left: 40px;
+    font-size: 24px;
+}
+
+
 
 @media screen and (max-width:500px) {     .grid-container {         display: flex;         flex-direction: column;     } }
