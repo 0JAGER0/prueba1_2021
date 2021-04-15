@@ -1,0 +1,179 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+body {
+    background: url(torta.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;   
+    background-attachment: fixed;
+    max-width: 100%;
+}
+
+.img{
+    max-width: 100%;
+}
+.login-box {
+    width: 320px;
+    height: 420px;
+    background: rgba(255, 0, 0, 0.2);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50% );
+    box-sizing: border-box;
+    padding: 70px 30px;
+    font-family: 'Lobster', cursive;
+}
+
+.login-box .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+
+}
+
+.login-box h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+
+}
+
+
+
+.login-box label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+
+}
+
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #444;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+
+}
+
+.login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(196, 21, 21);
+    color: aqua;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+    transform: scale(0.95);
+}
+
+.login-box a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+}
+
+.login-box a:hover {
+    color:white;
+}
+
+
+
+
+.footer {
+
+    padding: 1.5em;
+    text-align: center;
+    background-color: #60371E;
+    font-family: 'Lobster', cursive;
+    
+}
+
+
+#TITULO{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    max-width: 100%;
+    
+}
+
+
+#link_iniciar_sesion{
+    font-family: 'Lobster', cursive;    
+}
+
+#link_registro{
+    font-family: 'Lobster', cursive;
+    
+}
+#letra_inicio{
+    color:white;
+    font-family: 'Lobster', cursive;
+    
+}
+/* LETRA REGISTRO BOTON*/
+#letra_registro{
+    color: white;
+
+    font-family: 'Lobster', cursive;
+
+}    
+/*diego, te arregle el que el registro e iniciar sesion quedaran a la derecha*/ 
+/*y centre un poco el titulo que pusiste , el color cambialo si sientes que esta poco visible pero era una prueba nada mas*/
+#TITULOH1{
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 65px;
+    max-width: 100%;
+    
+}
+
+#logo{
+    margin-right: 10px;
+    max-width: 100%;
+}
+
+.clear{clear:both;}
+
+.separar {
+    margin-right: 10px;
+    
+}
+
+form{
+    font-family: 'lobster';
+}
+
+ul{
+    font-family: 'lobster', cursive;
+    margin-left: 40px;
+    font-size: 24px;
+}
+
+
+
+@media screen and (max-width:500px) {     .grid-container {         display: flex;         flex-direction: column;     } }
