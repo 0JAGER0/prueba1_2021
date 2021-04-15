@@ -18,36 +18,51 @@
         @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,800&display=swap');
-        /*Titulo pagina*/ 
         
+        /* TITULO BARRA NAVEGACION*/
+        #TITULO{
+            font-family: 'Lobster', cursive;
+            font-size: 40px;           
+        }  
         
         #logo{
             margin-right: 10px;
         }
 
-        /* TITULO BARRA NAVEGACION*/
-        #TITULO{
-            font-family: 'Lobster', cursive;
-            font-size: 40px;           
-        }     
+        /*LETRA BOTON INICIO SESION*/
+        #letra_inicio{
+            color:white;
+                
+        } 
+        /* LETRA REGISTRO BOTON*/
+        #letra_registro{
+            color: white;
+            
+        }
 
         #link_iniciar_sesion{
-            font-family: 'Crete Round', serif;
+            font-family: 'lobster', cursive;
             
         }
     
         #link_registro{
-            font-family: 'Crete Round', serif;;
-            
+            font-family: 'lobster', cursive;
         }
+
+        ul{
+            font-family: 'lobster', cursive;
+            margin-left: 40px;
+            font-size: 24px;
+        }
+
+
 
         body{
             background-image: url("https://previews.123rf.com/images/arborelza/arborelza1701/arborelza170100003/70672222-patr%C3%B3n-sin-fisuras-quot-la-hora-de-dulce-quot-vector-colorido-delicioso-fondo-con-tortas-pasteles-magda.jpg");
-            background-size: 100vw 100vh;
+            background-color: #F2EAD0;
+            background-blend-mode: soft-light;
             background-attachment: fixed;
-            margin: 0;
-            font-family: monospace;
-            }
+        }
 
         #formulario{
             width: 450px;
@@ -88,6 +103,13 @@
             padding: 20px;
         }
 
+        .footer {
+            padding: 1.5em;
+            text-align: center;
+            background-color: #60371E;
+            bottom: 0;
+        }
+
     </style>
 </head>
 <body>
@@ -126,14 +148,14 @@
                             </li> 
                         </ul>
                         <form method="GET" class="form-inline">
-                            <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Search" name="buscando">
+                            <input  style="margin-top: 21px;" class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Search" name="buscando">
                             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
                         </form>
                     </div>
                 </nav>
             </nav> 
     </header>
-        <form id="formulario" action="" style="margin-top: 200px;">
+        <form id="formulario" action="" style="margin-top: 150px;">
             <h2>Contacto</h2>
             <input type="text" name="Nombre" placeholder="Nombre" style="width: 400px; border-radius: 10px;">
             <input type="text" name="Correo" placeholder="Correo" style="width: 400px; border-radius: 10px;">
@@ -141,6 +163,17 @@
             <textarea name="mensaje" placeholder="Escriba su mensaje" style="width: 400px; border-radius: 10px;"></textarea>
             <input type="button" value="ENVIAR" id="boton" style="width: 400px;">
         </form>
+
+    </div>
+
+    
+    <div style="height:100px;background-color:#ffffff00">
+    </div>
+
+
+    <nav class="nav bg text-white footer" style="margin-top: 185px;">
+        Desarrollo de paginas web (grupo 7) Duoc uc 2021
+    </nav>
 
         <!--Scripts separados-->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
