@@ -44,13 +44,14 @@
         }
 
         #formulario{
-            width: 450px;
+            width: 600px;
+            height: 450px;
             margin: auto;
             background: rgb(0,0,0,0.4);
             padding: 10px 20px;
             box-sizing: border-box;
             margin-top: 150px;
-            border-radius: 7px;
+            border-radius: 1px;
         }
 
         h2{
@@ -62,24 +63,21 @@
         }
 
         input, textarea{
-            width: 100;
-            margin-bottom: 20px;
-            padding: 7px;
+            width: 50px;
+            margin-bottom: 15px;
+            padding: 10px;
             box-sizing: border-box;
             font-size: 17px;
             border: none;
             width: 400px; 
             border-radius: 10px;
-            margin-top: 25px;
+            margin-top: 125px;
         }
 
         textarea{
-            min-height: 100px;
-            max-height: 200px;
             max-width: 100%;
-            width: 400px; 
+            width: 400px;
             border-radius: 10px;
-            margin-top: 25px;
         }
         
         #boton{
@@ -96,4 +94,15 @@
             bottom: 0;
         }
 
+        .BARRAz{
+            margin-top: 20px;
+            width: 600px;
+            height: 40px;
+            margin-left: 78px;
+        }
         
+
+          
+
+
+
