@@ -1,0 +1,99 @@
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,800&display=swap');
+        
+        /* TITULO BARRA NAVEGACION*/
+        #TITULO{
+            font-family: 'Lobster', cursive;
+            font-size: 40px;           
+        }  
+        
+        #logo{
+            margin-right: 10px;
+        }
+
+        /*LETRA BOTON INICIO SESION*/
+        #letra_inicio{
+            color:white;
+                
+        } 
+        /* LETRA REGISTRO BOTON*/
+        #letra_registro{
+            color: white;
+            
+        }
+
+        #link_iniciar_sesion{
+            font-family: 'lobster', cursive;
+            
+        }
+    
+        #link_registro{
+            font-family: 'lobster', cursive;
+        }
+
+        ul{
+            font-family: 'lobster', cursive;
+            margin-left: 40px;
+            font-size: 24px;
+        }
+
+        #formulario{
+            width: 450px;
+            margin: auto;
+            background: rgb(0,0,0,0.4);
+            padding: 10px 20px;
+            box-sizing: border-box;
+            margin-top: 150px;
+            border-radius: 7px;
+        }
+
+        h2{
+            color:#fff;
+            text-align: center;
+            margin: 0;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        input, textarea{
+            width: 100;
+            margin-bottom: 20px;
+            padding: 7px;
+            box-sizing: border-box;
+            font-size: 17px;
+            border: none;
+            width: 400px; 
+            border-radius: 10px;
+            margin-top: 25px;
+        }
+
+        textarea{
+            min-height: 100px;
+            max-height: 200px;
+            max-width: 100%;
+            width: 400px; 
+            border-radius: 10px;
+            margin-top: 25px;
+        }
+        
+        #boton{
+            background: #31384A;
+            color: #fff;
+            padding: 20px;
+            
+        }
+
+        .footer {
+            padding: 1.5em;
+            text-align: center;
+            background-color: #60371E;
+            bottom: 0;
+        }
+
+        

@@ -78,13 +78,11 @@
             font-size: 65px;
             
         }
-
-
+        
         /*Titulo pagina*/ 
         #logo{
             margin-right: 10px;
         }
-
 
         /*subtitulo*/ 
         #subtituloh1{
@@ -111,7 +109,7 @@
             font-size: 65px;
             color: #732439;
         }
-
+        /*id titulo torta*/
         #h4_1{
             color: #121212;
             font-family: 'Arvo', serif;
@@ -146,7 +144,6 @@
             width: max-content;
         }
         
-
         /*imagenes al 100%*/
         img{
             max-width: 100%;
@@ -205,6 +202,7 @@
         #tituloInfo{
             text-align: center;
         }
+        /*PARRAFOS DEL FONDO DESPUES DE LAS REDES SOCIALES*/
         #parrafo1{
             text-align: center;
         }
@@ -215,6 +213,7 @@
             text-align: center;
             color: #F29F05;
         }
+        /*AJUSTES DE CARRUSEL*/
         #fotocarrusel1{
             border-radius: 20px;
         }
