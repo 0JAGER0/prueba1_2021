@@ -8,7 +8,7 @@ body{
     background-size: cover ;
     font-family: sans-serif;
     height: 100vh; 
-    max-width: 100%;
+    
 
 }
 
@@ -23,14 +23,14 @@ body{
     font-family: 'calibri';
     color: white;
     box-shadow: 7px 13px 37px #000;
-    max-width: 100%;
+   
 
 }
 
 .form-register h4 {
     font-size: 22px;
     margin-bottom: 20px;
-    max-width: 100%;
+    
 }
 
 .controls {
@@ -43,21 +43,20 @@ body{
     font-family: 'calibri';
     font-size: 18px;
     color: white;
-    max-width: 100%;
+    
 }
 
 .form-register p{
 height: 40px;
 text-align:  center;
 font-size: 18px;
-max-width: 100%;
+
 
 }
 
 .form-register a:hover {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    max-width: 100%;
     
 }
 
@@ -69,18 +68,14 @@ max-width: 100%;
     color: white;
     margin: 16px 0;
     font-size: 16px;
-    max-width: 100%;
     
 }
 
 .form-register input[type="submit"]:hover{
     transform: scale(0.95);
-    max-width: 100%;
+    
 }
 
-.container {
-    max-width: 100%;
-}
 
 
 
@@ -89,7 +84,6 @@ max-width: 100%;
     text-align: center;
     color: whitesmoke;
     font-size: 65px;
-    max-width: 100%;
     
 }
 
@@ -98,7 +92,6 @@ max-width: 100%;
     padding: 1.5em;
     text-align: center;
     background-color: #60371E;
-    max-width: 100%;
 }
 
 
@@ -107,7 +100,6 @@ max-width: 100%;
 #TITULO{
     font-family: 'Lobster', cursive;
     font-size: 40px;
-    max-width: 100%;
     
 }
 /* link contacto*/
@@ -115,26 +107,22 @@ max-width: 100%;
 
 #link_iniciar_sesion{
     font-family: 'Cabin', sans-serif;
-    max-width: 100%;
     
 }
 
 #link_registro{
     font-family: 'Cabin', sans-serif;
-    max-width: 100%;
     
 }
 /*LETRA BOTON INICIO SESION*/
 #letra_inicio{
     color:white;
-    max-width: 100%;
     
 }
 /* LETRA REGISTRO BOTON*/
 #letra_registro{
     color: white;
-
-    max-width: 100%;
+;
 
 }    
 /*diego, te arregle el que el registro e iniciar sesion quedaran a la derecha*/ 
@@ -144,13 +132,21 @@ max-width: 100%;
     text-align: center;
     color: whitesmoke;
     font-size: 65px;
-    max-width: 100%;
     
 }
 
 #logo{
     margin-right: 10px;
-    max-width: 100%;
+
+
 }
 
 
+.clear{clear:both;}
+
+.separar{
+    margin-right: 10px;
+    
+}
+
+@media screen and (max-width:500px) {     .grid-container {         display: flex;         flex-direction: column;     } }

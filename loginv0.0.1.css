@@ -158,3 +158,12 @@ body {
     margin-right: 10px;
     max-width: 100%;
 }
+
+.clear{clear:both;}
+
+.separar {
+    margin-right: 10px;
+    
+}
+
+@media screen and (max-width:500px) {     .grid-container {         display: flex;         flex-direction: column;     } }

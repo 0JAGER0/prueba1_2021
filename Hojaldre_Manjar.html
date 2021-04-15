@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <title>Hojaldre Manjar Chantilly Frambuesa</title>
+    <title>Hojaldre Manjar</title>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;1,700&family=Fjalla+One&display=swap');
       @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
@@ -21,9 +21,9 @@
       text-align: center;    
       font-size: 50px;
       font-family:'Lora', serif;
-      color: rgb(0, 204, 255);
+      color: rgb(255, 255, 255);
       margin-top: 65px;
-      background-color: brown;
+      background-color: rgb(59, 34, 5);
       }
       #letra_inicio{
       color:white;
@@ -45,11 +45,11 @@
       .TitulosDos{
       text-align: center;
       margin: 0.5px;
-      color: rgb(0, 204, 255);
+      color: rgb(255, 255, 255);
       font-family: 'Lora', serif;
       font-size: 40px;
       margin-top: 15px;
-      background-color: brown;
+      background-color: rgb(59, 34, 5);
       }
       .card-text{
       font-size: 20px;
@@ -72,6 +72,7 @@
       
       img{
         max-width: 100%;
+        border-radius: 10px;
       }
       
       .parallaxUno {
@@ -91,6 +92,9 @@
       padding: 5px;
       font-weight: 100;
       font-family: 'Lora', serif;
+      }
+      a{
+        border-radius: 40px;
       }
       </style>
 </head> 
@@ -134,7 +138,7 @@
     </nav>    
 
 <header>
-<h1 class="TituloUno">Hojaldre Manjar Chantilly Frambuesa</h1>
+<h1 class="TituloUno">Hojaldre Manjar</h1>
 </header>
 <div class="card mb-3" style="max-width: 1750px; margin-top: -6px; margin-left: 20px;">
     <div class="row no-gutters">
@@ -158,7 +162,8 @@
 </select>
 <br>
 <br>
-<p style="color: red;">Falta el carrito de compra</p>
+<input type="number" id="tentacles" name="tentacles" min="1" max="30">
+<button type="submit" class="single_add_to_cart_button button alt disabled wc-variation-selection-needed">Añadir al carrito</button>
 <hr style="margin-top: 7em;">
 <p class="card-text">Tipo de torta: refinada</p>
 </div> 
@@ -169,7 +174,7 @@
       <table class="table">
         <tr>
           <td style="background-color: gray;">
-            Informacion adicional
+            <b>Informacion adicional</b>
           </td>
         </tr>
         <tr>
@@ -182,12 +187,12 @@
     <div class="grid-container">
       <div class="grid-item"><img src="https://www.mozart.cl/wp-content/uploads/2018/04/opera-blanca.jpg" alt="Opera Blanca"></div>
       <div class="grid-item"><img src="https://www.mozart.cl/wp-content/uploads/2018/04/merengue-frambuesa.jpg" alt="merengue-frambuesa"></div>
-      <div class="grid-item"><a href="#" style="border: groove black; background-color: brown; border-width: 1px; color: rgb(0, 204, 255);">Opera Blanca</a></div>
-      <div class="grid-item"><a href="#" style="border: groove black; background-color: brown; border-width: 1px; color: rgb(0, 204, 255);">merengue-frambuesa</a></div>  
+      <div class="grid-item"><a href="#" style="background-color: rgb(59, 34, 5); color: rgb(255, 255, 255);">Opera Blanca</a></div>
+      <div class="grid-item"><a href="#" style="background-color: rgb(59, 34, 5); color: rgb(255, 255, 255);">merengue-frambuesa</a></div>  
       <div class="grid-item"><img src="https://www.mozart.cl/wp-content/uploads/2020/05/tmp65AD.jpg" alt="Cassatta"></div>
       <div class="grid-item"><img src="https://www.mozart.cl/wp-content/uploads/2018/04/Biscocho-Frambuesa.jpg" alt="Frambuesa"></div> 
-      <div class="grid-item"><a href="#" style="border: groove black; background-color: brown; border-width: 1px; color: rgb(0, 204, 255);">Cassatta</a></div>
-      <div class="grid-item"><a href="#" style="border: groove black; background-color: brown; border-width: 1px; color: rgb(0, 204, 255);">Biscocho Frambuesa</a></div>   
+      <div class="grid-item"><a href="#" style="background-color: rgb(59, 34, 5); color: rgb(255, 255, 255);">Cassatta</a></div>
+      <div class="grid-item"><a href="#" style="background-color: rgb(59, 34, 5); color: rgb(255, 255, 255);">Biscocho Frambuesa</a></div>   
     </div>
 
     <div class="TitulosDos">
