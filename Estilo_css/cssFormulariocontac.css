@@ -131,8 +131,10 @@
         }
         
         #Enviar{
-        margin-top: 300px;
-        margin-left: 113px;
+        margin-top: 290px;
+        margin-left: 115px;
+        width:400px;
+        height: 50px;
         }
     
     #l_nombre_completo{
