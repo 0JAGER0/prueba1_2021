@@ -5,7 +5,7 @@
 
 
 body {
-    background: url(torta.jpg) no-repeat center top;
+    background: url(../imagenes/torta.jpg) no-repeat center top;
     background-size: cover;
     font-family: sans-serif;
     height: 100vh;   
