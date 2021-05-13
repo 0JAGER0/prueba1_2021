@@ -8,6 +8,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,800&display=swap');
         
         /* TITULO BARRA NAVEGACION*/
+        
         #TITULO{
             font-family: 'Lobster', cursive;
             font-size: 40px;           
@@ -44,8 +45,8 @@
         }
 
         #formulario{
-            width: 600px;
-            height: 450px;
+            width: 700px;
+            height: 700px;
             margin: auto;
             background: rgb(0,0,0,0.4);
             padding: 10px 20px;
@@ -95,12 +96,60 @@
         }
 
         .BARRAz{
-            margin-top: 20px;
+            margin-top: 30px;
             width: 600px;
             height: 40px;
-            margin-left: 78px;
+            margin-left: 58px;
+        }
+
+        #nombre{
+            margin-top: -10px;
+            width: 500px;
+            height: 45px;
+            margin-right: -50px;
         }
         
+        #correo{
+            margin-top: -10px;
+            width: 500px;
+            height: 45px;
+            margin-right: -50px;
+        }
+        
+        #telefono{
+            margin-top: -10px;
+            width: 500px;
+            height: 45px;
+            margin-right: -50px;
+        }
+  
+        #mensaje{
+            margin-top: 2px;
+            width: 500px;
+            height: 180px;
+            margin-right: -50px;
+        }
+        
+        #Enviar{
+        margin-top: 300px;
+        margin-left: 113px;
+        }
+    
+    #l_nombre_completo{
+        margin-top: -180px;
+    }
+
+    #l_correo{
+        margin-top: 30px;
+    }
+
+    #l_numero{
+        margin-top: 50px;
+    }
+
+    #l_mensaje{
+        margin-top: 67px;
+    }
 
         form .error{
             color: #ff0000;
