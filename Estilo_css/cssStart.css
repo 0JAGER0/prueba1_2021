@@ -84,6 +84,10 @@
             margin-right: 10px;
         }
 
+        #letra_registro{
+            margin-right: 350px;
+        }
+
         /*subtitulo*/ 
         #subtituloh1{
             font-family: 'Caveat', cursive;
