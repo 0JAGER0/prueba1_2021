@@ -19,9 +19,34 @@ background-color: rgb(59, 34, 5);;
 }
 #letra_inicio{
 color:white;
+font-family: 'lobster', cursive;
 }
 #letra_registro{
 color: white;
+margin-right: 630px;
+font-family: 'lobster', cursive;
+}
+#boton_ini{
+  font-family: 'lobster', cursive;
+}
+  
+#nosotros{
+  font-family: 'lobster', cursive;
+}
+  
+#productos{
+  font-family: 'lobster', cursive;
+}
+  
+#contactos{
+  font-family: 'lobster', cursive;
+}
+
+#buscar{
+  font-family: 'Lobster', cursive;
+}
+#boton_busc{
+  font-family: 'Lobster', cursive;
 }
 #TITULO{
 font-family: 'Lobster', cursive;
