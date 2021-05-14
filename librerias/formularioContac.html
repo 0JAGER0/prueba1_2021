@@ -64,26 +64,27 @@
         <form id="formulario" name="formulario" style="margin-top: 150px;">
                 <h2>Contacto</h2>
             <div class="BARRAz">
-                <label for="nombre">Nombre Completo</label>
+                <label for="nombre" id="l_nombre_completo">Nombre Completo</label>
                 <input type="text" class="form-control" name="nombre" id="nombre" placeholder="nombre" required>             
             </div>
 
             <div class="BARRAz"> 
-                <label for="correo">Corre electronico</label>   
+                <label for="correo" id="l_correo">Corre electronico</label>   
                 <input type="email" class="form-control" name="correo" id="correo" placeholder="correo" required>
             </div> 
 
             <div class="BARRAz">
-                <label for="telefono">Numero telefonico</label>
+                <label for="telefono" id="l_numero">Numero telefonico</label>
                 <input type="number" class="form-control" name="telefono" id="telefono" placeholder="telefono" required>
             </div>
 
             <div class="BARRAz">
-                <label for="telefono">Mensaje</label>
+                <label for="telefono" id="l_mensaje">Mensaje</label>
                 <textarea name="mensaje" id="mensaje" class="form-control" placeholder="Escriba su mensaje" required></textarea>
 
-                <input type="submit" class="btn btn-primary" value="enviar" id="Enviar">
             </div>
+                
+            <input type="submit" class="btn btn-primary" value="enviar" id="Enviar">
 
         </form>
 
