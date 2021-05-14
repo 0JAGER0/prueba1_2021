@@ -127,7 +127,7 @@ body {
 
 #link_registro{
     font-family: 'Lobster', cursive;
-    margin-right: 330px;
+    margin-right: 180px;
     
 }
 #letra_inicio{
@@ -138,7 +138,7 @@ body {
 /* LETRA REGISTRO BOTON*/
 #letra_registro{
     color: white;
-
+    
     font-family: 'Lobster', cursive;
 
 }    
