@@ -120,6 +120,10 @@ body {
     
 }
 
+#cuadr_regis{
+    width: 500px;
+    height: 500px;
+}
 
 #link_iniciar_sesion{
     font-family: 'Lobster', cursive;    
