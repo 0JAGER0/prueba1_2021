@@ -30,3 +30,4 @@ $("#formulario").validate({
   });
 
 
+
