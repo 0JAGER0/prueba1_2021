@@ -84,14 +84,14 @@ img{
 
 
 
-    /* PARA LA API DEL CLIMA  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+    /* CSS Api Clima */
 
 
     :root {
         --bg_main: #113675;
-        --text_light: rgba(171, 181, 196, 0.952);
-        --text_med: #70708b;
-        --text_dark: #9e9e9e;
+        --text_light: rgba(192, 28, 143, 0.781);
+        --text_med: #43ecd6;
+        --text_dark: #ffffff;
         --red: #ff1e42;
         --darkred: #c3112d;
         --orange: #ff8c00;
@@ -226,6 +226,7 @@ img{
         margin-top: 10px;
         text-transform: uppercase;
         letter-spacing: 0.05em;
+        font-family: 'Liberation Sans';
       }
       
       .ajax-section .city-temp {
