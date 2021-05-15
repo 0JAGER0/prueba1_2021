@@ -12,12 +12,17 @@ p {
     display: block;
     font-family: 'lora','serif';
     max-width: 100%;
-    font-size: 20px;        
+    font-size: 20px;   
+    text-align: justify;     
+    margin: 1.2%;
 }
-        
+
+#Tit_Gener{
+    margin: 1.2%;
+}
+
 body{
     background-color:#F2EAD0;
-    padding: 5em;
     text-align: justify;            
 }
         
@@ -43,7 +48,7 @@ ul{
       
     
 .TituloDos{
-    margin-top: 2em;
+    margin-top: 4em;
     font-family: 'Lora','serif';  
 }
     
@@ -75,3 +80,10 @@ img{
     text-align: center;
     background-color: #865730;
 }
+<<<<<<< HEAD
+=======
+
+#desarrolladores{
+    margin-top: 5em;
+}
+>>>>>>> 11529f97e8374ef9f0714760166e1e7769316332

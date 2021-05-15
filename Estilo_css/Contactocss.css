@@ -10,7 +10,7 @@
             
             #TITULO{
                 font-family: 'lobster', cursive;
-                font-size: 40px;
+                font-size: 30px;
             }
     
             #logo{
@@ -20,12 +20,15 @@
             /*LETRA BOTON INICIO SESION*/
             #letra_inicio{
                 color:white;
-                
+                font-size: 15px;
+                margin-top: 7px;
             }
             /* LETRA REGISTRO BOTON*/
             #letra_registro{
                 color: white;
-                margin-right: 180px;
+                margin-right: 400px;
+                font-size: 15px;
+                margin-top: 7px;
             
             }
             .contenedor{
@@ -41,7 +44,8 @@
     
             p{
                 font-family: 'Kanit', sans-serif;
-                color: brown ;            
+                color: brown ;    
+                font-size: 20px;          
             }
     
             ul{
@@ -65,3 +69,24 @@
             #bottonLinkContacto{
                 margin-left: 1em;
             }
+
+            #inicio{
+                font-size: 15px;
+                margin-top: 7px;
+                margin-left: -50px;
+            }
+
+            #nosotros{
+                font-size: 15px;
+                margin-top: 7px;
+            }
+            #productos{
+                font-size: 15px;
+                margin-top: 7px;
+            }
+            #contactos{
+                font-size: 15px;
+                margin-top: 7px;
+            }
+
+           
