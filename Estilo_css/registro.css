@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 
 body{
@@ -167,5 +168,10 @@ form{
     margin-right: 10px;
     
 }
+
+form .error{
+    color: #ff0000;
+    font-family: 'Roboto', sans-serif;
+  }
 
 @media screen and (max-width:500px) {     .grid-container {         display: flex;         flex-direction: column;     } }
