@@ -88,6 +88,10 @@
             font-family: 'lobster', cursive;
         }
 
+        .responsive_arreg{
+          width: 100%;
+        }
+
         /* LETRA REGISTRO BOTON*/
         #letra_registro{
             color: white;
@@ -301,19 +305,21 @@
       ul {
         list-style: none;
       }
-      
-
-      
+            
       .container {
         width: 100%;
         max-width: 1200px;
         margin: 0 auto;
         padding: 0 15px;
       }
+<<<<<<< HEAD
       
       
       /* SECTION #1
       –––––––––––––––––––––––––––––––––––––––––––––––––– */
+=======
+        
+>>>>>>> 8a58076d33140aa36f6f0dc190d74ae223a2efe6
       .top-banner {
         color: var(--text_light);
       }
@@ -443,10 +449,7 @@
       
   
       @media screen and (max-width: 1000px) {
-        body {
-          padding: 30px;
-        }
-        
+      
         .ajax-section .cities {
           grid-template-columns: repeat(3, 1fr);
         }
@@ -490,7 +493,6 @@
       
       @media screen and (max-width: 500px) {
         body {
-          padding: 15px;
           width: 100%;
         }
         
@@ -499,15 +501,12 @@
         }
       }
 
-      
-
       .api {
-        background: #fffbbc;
-        position: fixed;
+        background: hsl(56, 100%, 87%);
         top: 0;
         left: 0;
         width: 100%;
-        padding: 10px;
+        padding: auto;
       }
       
       .api a {
