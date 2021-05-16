@@ -21,6 +21,10 @@ p {
     margin: 1.2%;
 }
 
+#Tit_Generr{
+    margin: 1.2%;
+}
+
 body{
     background-color:#F2EAD0;
     text-align: justify;            
@@ -265,7 +269,7 @@ img{
         color: var(--red);
       }
       
-      
+      Tit_Gener
   
       @media screen and (max-width: 1000px) {
       
