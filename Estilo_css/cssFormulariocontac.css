@@ -101,6 +101,12 @@
             height: 40px;
             margin-left: 58px;
         }
+        #rut{
+            margin-top: -10px;
+            width: 500px;
+            height: 45px;
+            margin-right: -50px;
+        }
 
         #nombre{
             margin-top: -10px;

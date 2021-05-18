@@ -260,4 +260,15 @@
             margin-left: 200px;
         }
 
-        
+        #boton_clima{
+            margin-top: 1em; 
+            margin-left: 150px; 
+            width: 150px;
+        }
+      
+        #parrafo_clima{
+            margin-top: 43px; 
+            margin-left: 25px; 
+            font-size: 18px; 
+            color: #FDF0D5;
+        }
