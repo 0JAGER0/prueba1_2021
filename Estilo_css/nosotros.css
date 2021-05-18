@@ -269,15 +269,13 @@ img{
         color: var(--red);
       }
       
-     
   
       @media screen and (max-width: 1000px) {
-      
         .ajax-section .cities {
           grid-template-columns: repeat(3, 1fr);
         }
       }
-      
+
       @media screen and (max-width: 700px) {
         .heading,
         .ajax-section .city-temp {
