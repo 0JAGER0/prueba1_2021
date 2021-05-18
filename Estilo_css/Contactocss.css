@@ -343,13 +343,13 @@
       .modif_api{
         margin-right: 2em;
         margin-top: -90px;
-      }          
-
-
-      
+      }               
 
 #map {
-  height: 100%;
+  height: 40%;
+  width: 34%;
+  margin-left: 43px;
+  max-width: 100%;
 }
 
 /* Optional: Makes the sample page fill the window. */
