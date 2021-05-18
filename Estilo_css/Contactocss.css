@@ -346,8 +346,8 @@
       }               
 
 #map {
-  height: 40%;
-  width: 34%;
+  height: 70%;
+  width: 80%;
   margin-left: 43px;
   max-width: 100%;
 }
@@ -376,3 +376,5 @@ body {
 .custom-map-control-button:hover {
   background: #ebebeb;
 }
+
+
