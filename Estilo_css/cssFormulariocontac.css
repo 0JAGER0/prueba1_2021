@@ -46,7 +46,7 @@
 
         #formulario{
             width: 700px;
-            height: 700px;
+            height: 800px;
             margin: auto;
             background: rgb(0,0,0,0.4);
             padding: 10px 20px;
@@ -137,26 +137,26 @@
         }
         
         #Enviar{
-        margin-top: 290px;
+        margin-top: 320px;
         margin-left: 115px;
         width:400px;
         height: 50px;
         }
     
     #l_nombre_completo{
-        margin-top: -180px;
+        margin-top: 20px;
     }
 
     #l_correo{
-        margin-top: 30px;
+        margin-top: 40px;
     }
 
     #l_numero{
-        margin-top: 50px;
+        margin-top: 60px;
     }
 
     #l_mensaje{
-        margin-top: 67px;
+        margin-top: 90px;
     }
 
     form .error{
