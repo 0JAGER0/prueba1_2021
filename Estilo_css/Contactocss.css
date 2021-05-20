@@ -345,12 +345,17 @@
         margin-top: -90px;
       }               
 
-#map {
-  height: 70%;
-  width: 80%;
-  margin-left: 43px;
-  max-width: 100%;
-}
+      #map{
+        max-width: 100%;
+        margin-top: 30px;
+        text-align: center;
+      }
+
+      #map img {
+        width: 90%;
+        padding: 9px;
+      }
+    
 
 /* Optional: Makes the sample page fill the window. */
 html,
@@ -377,4 +382,14 @@ body {
   background: #ebebeb;
 }
 
-
+#boton_mapa{
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 40px;
+}
