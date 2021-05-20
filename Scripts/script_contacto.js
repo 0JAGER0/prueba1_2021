@@ -4,23 +4,25 @@ function mapeo_static() {
 
   //CONDICIONES PARA PODER SABER EL SOPORTE DE LA GEOLOCALIZACION
   if (navigator.geolocation) {
-    output.innerHTML = "<p>Tu navegador soporta Geolocalizacion</p>";
+    output.innerHTML = "<p>Tu navegador soporta la localizacion</p>";
   } else {
-    output.innerHTML = "<p>Tu navegador no soporta Geolocalizacion</p>";
+    output.innerHTML = "<p>Tu navegador no soporta localizacion</p>";
   }
   
 
+  //SERVIRA PARA ALMACENAR LA LATITUD Y LA LONGITUD, PARA DESPUES ALMACENARLAS DENTRO DE la latitud y la longitud
   function localizacion_persona(posicion) {
 
-    var latitude = posicion.coords.latitude;
-    var longitude = posicion.coords.longitude;
+    var latitud = posicion.coords.latitude;
+    var longitud = posicion.coords.longitude;
 
-    //servira para poder imprimir la ubicacion dentro de un mapa con google static map
-    var imgURL = "https://maps.googleapis.com/maps/api/staticmap?center=" + latitude + "," + longitude + "&size=600x300&markers=color:red%7C" + latitude + "," + longitude + "&key=AIzaSyBnhlD-Nb-YLYd0NpBwOzt2aeEukHvGXxE";
+    //servira para poder imprimir la ubicacion dentro de un mapa en imagen con google static map
+    var imgURL = "https://maps.googleapis.com/maps/api/staticmap?center=" + latitud + "," + longitud + "&size=600x300&markers=color:red%7C" + latitud + "," + longitud + "&key=AIzaSyBnhlD-Nb-YLYd0NpBwOzt2aeEukHvGXxE";
     output.innerHTML = "<img src='" + imgURL + "'>";
 
   }
 
+  //SERVIRA PARA PODER MOSTRAR EN PANTALLA QUE LA LOCALIZACION NO SE PODRA GENERAR DEBIDO A QUE EL USUARIO LO ESTE DENEGANDO 
   function error_ubicacion() {
     output.innerHTML = "<p>No se pudo obtener tu ubicación</p>";
 
